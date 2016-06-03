@@ -37,6 +37,7 @@ div {
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 1.5rem;
+	text-decoration: none;
 }
 
 .top-navigation .links .active {
@@ -49,10 +50,6 @@ div {
 	color: #333333;
 }
 
-.top-navigation .links li > a {
-	text-decoration: none;
-	
-}
 
 
 
