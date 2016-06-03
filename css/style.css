@@ -10,7 +10,7 @@ div {
 
 .top-navigation {
 	background-color: #FFFFFF;
-	-webkit-font-smoothing: antialiased;
+	
 }
 
 .top-navigation > .content {
@@ -20,33 +20,43 @@ div {
 	padding: 0 2rem;	
 }
 
-.top-navigation .links > .active,
-.top-navigation .links li > a:hover {
-	color: #4C5058;
-	font-weight: 500;
+.logo {
+	margin: 0 1rem;
 }
 
-.top-navigation .links li > a {
-	text-decoration: none;
-	color: #838994;
-}
-
-.content > .links {
+.top-navigation .links {
 	float: right;
 	font-family: "Roboto", sans-serif;
 	font-size: 1.05rem;
-	
+	color: #838994;
 	letter-spacing: 0.03rem;
 	margin-top: 1.5rem;
-	
+	-webkit-font-smoothing: antialiased;
 }
 
-.links > li {
+.top-navigation .links li {
 	display: inline-block;
 	margin-left: 1.5rem;
 }
 
-.logo {
-	margin: 0 1rem;
+.top-navigation .links .active {
+	color: #4C5058;
+	font-weight: 500;
 }
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+
+.top-navigation .links li > a {
+	text-decoration: none;
+	
+}
+
+
+
+
+
+
 
