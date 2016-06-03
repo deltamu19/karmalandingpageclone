@@ -1,19 +1,23 @@
 body {
-	background-color: #FFFFFF;
+	background-color: lightgrey;
 }
-
-#logo {
-	padding: 0.8em 7em;
-}
-
-.nav-bar > a {
-	color: #c1c1bd;
-	text-decoration: none;
-	max-height: 50em;
-	padding: 0.8em;
-}
-
 
 div {
 	border: 1px solid chocolate;
+}
+
+/* Navigation Section */
+
+.top-navigation {
+	background-color: #FFFFFF;	
+}
+
+.top-navigation > .content {
+	width: 73rem;
+	height: 4.5rem;
+	margin: 0 auto;
+}
+
+#logo {
+	margin: 1rem;
 }
