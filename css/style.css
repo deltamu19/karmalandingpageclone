@@ -1,11 +1,16 @@
 body {
 	background-color: lightgrey;
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 div {
 	border: 1px solid chocolate;
 }
 
+a { 
+	text-decoration: none;
+}
 /* Navigation Section */
 
 .top-navigation {
@@ -14,8 +19,11 @@ div {
 }
 
 .top-navigation > .content {
+	height: 4.375rem;	
+}
+
+.content {
 	width: 71rem;
-	height: 4.375rem;
 	margin: 0 auto;
 	padding: 0 2rem;	
 }
@@ -26,12 +34,10 @@ div {
 
 .top-navigation .links {
 	float: right;
-	font-family: "Roboto", sans-serif;
 	font-size: 1.05rem;
 	color: #838994;
 	letter-spacing: 0.03rem;
 	margin-top: 1.5rem;
-	-webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .links li {
@@ -50,8 +56,32 @@ div {
 	color: #333333;
 }
 
+.introduction {
+	background-image: url("../images/karma-background.jpg");
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45rem;
+	overflow: auto;
+	
+}
 
+.introduction .content .h1,
+.introduction .content .h3 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 
+}
 
+.introduction .content .h1 {
+	margin-top: 10rem;
+	font-size: 3rem;
+}
+
+.introduction .content .h3 {
+	margin-top: 1rem;
+	font-size: 1rem;
+}
 
 
 
