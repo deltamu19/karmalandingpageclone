@@ -1,9 +1,22 @@
 /* General Styling */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
 body {
 	background-color: lightgray;
-	border: 0.5px solid orange;
 	font-family: Roboto, sans-serif;
 	-webkit-font-smoothing: 
+}
+
+div {
+	border: 0.5px solid orange;
 }
 
 a {
@@ -29,18 +42,24 @@ a {
 
 .top-nav .content .links li {
 	display: inline-block;
-	margin-left: 1.70em;
+	margin-left: 1.563em;
 	margin-top: 0.5em;
 }
 
 .top-nav .content .links li a {
-	color: gray;
+	color: #838994;
 	font-size: 1.045em;
+	letter-spacing: 0.03em;
+	transition: all 0.5s ease;
+}
+
+.top-nav .content .links li a:hover {
+	color: #4C5058;
 }
 
 #meet-karma a {
-	color: #000000;
-	font-weight: bold;
+	color: #4C5058;
+	font-weight: 500;
 }
 
 #logo {
