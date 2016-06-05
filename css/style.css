@@ -23,14 +23,14 @@ a {
 	text-decoration: none;
 }
 
-/*Nav Bar Section */
+/* Nav Bar Section */
 .top-nav {
 	background-color: #FFFFFF;
 	position: fixed;
 	width: 100%;
 }
 
-.top-nav .content {
+.content {
 	width: 70.50em;
 	margin: 0 auto;
 }
@@ -64,4 +64,38 @@ a {
 
 #logo {
 	float: left;
+}
+
+/* Background Image Section */
+.intro {
+	background-image: url("../images/karma-background.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45em;
+	overflow: auto;
+}
+
+.intro .content {
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 300;
+}
+
+.intro .content h1 {
+	margin-top: 6em;
+	font-size: 3.125em;
+}
+
+.intro .content h3 {
+	margin-top: 1em;
+	font-size: 1.563em;
+}
+
+.intro .buttons {
+	background-color: #F15A29;
+	border-color: #F15A29;
+	border-radius: 4px;
+	height: 3em;
+	width: 10em;
 }
