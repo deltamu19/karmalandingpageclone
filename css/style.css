@@ -1,89 +1,48 @@
+/* General Styling */
 body {
-	background-color: lightgrey;
-	font-family: "Roboto", sans-serif;
-	-webkit-font-smoothing: antialiased;
+	background-color: lightgray;
+	border: 0.5px solid orange;
+	font-family: Roboto, sans-serif;
+	-webkit-font-smoothing: 
 }
 
-div {
-	border: 1px solid chocolate;
-}
-
-a { 
+a {
 	text-decoration: none;
 }
-/* Navigation Section */
 
-.top-navigation {
+/*Nav Bar Section */
+.top-nav {
 	background-color: #FFFFFF;
-	
+	position: fixed;
+	width: 100%;
 }
 
-.top-navigation > .content {
-	height: 4.375rem;	
-}
-
-.content {
-	width: 71rem;
+.top-nav .content {
+	width: 70em;
 	margin: 0 auto;
-	padding: 0 2rem;	
 }
 
-.logo {
-	margin: 0 1rem;
-}
-
-.top-navigation .links {
+.top-nav .content .links {
 	float: right;
-	font-size: 1.05rem;
-	color: #838994;
-	letter-spacing: 0.03rem;
-	margin-top: 1.5rem;
+
 }
 
-.top-navigation .links li {
+.top-nav .content .links li {
 	display: inline-block;
-	margin-left: 1.5rem;
-	text-decoration: none;
+	margin-left: 2em;
+	margin-top: 0.5em;
 }
 
-.top-navigation .links .active {
-	color: #4C5058;
-	font-weight: 500;
+.top-nav .content .links li a {
+	color: gray;
+	font-size: 1.045em;
 }
 
-.top-navigation .links li:hover {
-	cursor: pointer;
-	color: #333333;
+#meet-karma a {
+	color: #000000;
+	font-weight: bold;
 }
 
-.introduction {
-	background-image: url("../images/karma-background.jpg");
-	background-position: 0 bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 45rem;
-	overflow: auto;
-	
+#logo {
+	float: left;
 }
-
-.introduction .content .h1,
-.introduction .content .h3 {
-	color: #FFFFFF;
-	text-align: center;
-	font-size: 
-}
-
-.introduction .content .h1 {
-	margin-top: 10rem;
-	font-size: 3rem;
-}
-
-.introduction .content .h3 {
-	margin-top: 1rem;
-	font-size: 1rem;
-}
-
-
-
-
-
