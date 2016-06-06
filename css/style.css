@@ -15,6 +15,7 @@ div {
 
 a {
 	text-decoration: none;
+	color: #000000;
 }
 
 /* Nav Bar Section */
@@ -134,5 +135,36 @@ a {
 .three-items .content .list li h3 {
 	font-weight: 400;
 	font-size: 1.5em;
+	text-align: center;
+}
+
+/* Footer Section */
+.footer {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 20em;
+}
+
+.footer .content {
+	border-top: 0.05em solid lightgray;
+}
+
+.footer .content .join {
+	color: #000000;
+	text-align: center;
+}
+
+.footer .content .social {
+	text-align: center;
+}
+
+.footer .content .social li {
+	display: inline-block;
+	border: 0.05em solid lightgray;
+	border-radius: 50%;
+}
+
+.footer .content .copyright {
+	color: lightgray;
 	text-align: center;
 }
