@@ -3,12 +3,6 @@ html {
 	box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-	box-sizing: inherit;
-}
-
 body {
 	background-color: lightgray;
 	font-family: Roboto, sans-serif;
@@ -33,6 +27,7 @@ a {
 .content {
 	width: 70.50em;
 	margin: 0 auto;
+	box-sizing: inherit;
 }
 
 .top-nav .content .links {
@@ -55,6 +50,7 @@ a {
 
 .top-nav .content .links li a:hover {
 	color: #4C5058;
+	cursor: pointer;
 }
 
 #meet-karma a {
@@ -93,7 +89,7 @@ a {
 }
 
 /* Buttons Section */
-.intro .buttons {
+.buttons {
 	background-color: #F15A29;
 	border-color: #F15A29;
 	border-radius: 4px;
@@ -102,4 +98,10 @@ a {
 	color: #FFFFFF;
 	font-weight: 500;
 	font-size: 1.10em;
+}
+
+.buttons:hover {
+	background-color: #D9400E;
+	border-color: #D9400E;
+	cursor: pointer;
 }
