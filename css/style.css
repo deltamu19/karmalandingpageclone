@@ -4,13 +4,8 @@ html {
 }
 
 body {
-	background-color: lightgray;
 	font-family: Roboto, sans-serif;
 	-webkit-font-smoothing: 
-}
-
-div {
-	border: 0.5px solid orange;
 }
 
 a {
@@ -149,12 +144,12 @@ a {
 	border-top: 0.05em solid lightgray;
 }
 
-.footer .content .join {
+.join {
 	color: #000000;
 	text-align: center;
 }
 
-.footer .content .social {
+.social {
 	text-align: center;
 }
 
@@ -162,9 +157,26 @@ a {
 	display: inline-block;
 	border: 0.05em solid lightgray;
 	border-radius: 50%;
+	width: 2.25em;
+	height: 2.25em;
+	margin-right: 0.75em;
+	padding-top: 0.5em; 
 }
+
 
 .footer .content .copyright {
 	color: lightgray;
 	text-align: center;
+}
+
+.social .twitter {
+	color: #55ACEE;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .instagram {
+	color: #3F729B;
 }
