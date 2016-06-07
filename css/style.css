@@ -180,3 +180,7 @@ a {
 .social .instagram {
 	color: #3F729B;
 }
+
+.social li:hover {
+	cursor: pointer;
+}
